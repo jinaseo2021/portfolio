@@ -1,0 +1,15 @@
+body,html{background:red;}
+
+
+.content{width:100%; height:100%; padding:0 4% ;  box-sizing:border-box;}
+
+.content > div img{width:100%}
+
+.box1{width:22%; height:auto; float:left; margin:10% 0.5% 0.5% 0}
+.box2{width:22%; height:auto; float:left; margin-bottom:0.5%; margin-top:1%}
+.box3{width:22%; height:auto; float:right; margin:0 0 0.5% 0.5%; margin-top:1%}
+.box4{width:22%; height:auto; float:right; margin-bottom:0.5%; margin-top:1%}
+.box5{width:22%; height:auto; float:left; margin-right:0.5%; margin-bottom:1%}
+.box6{width:22%; height:auto; float:left; }
+.box7{width:22%; height:auto; float:right; margin-left:0.5%}
+.box8{width:22%; height:auto; float:right }
