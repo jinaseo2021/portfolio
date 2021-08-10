@@ -84,44 +84,7 @@
 		</div>
 	</div>
 
-	<!--상세-->
-	<div id="con1" class="con">
-		<div class="inner_content">
-		    상데 ㄴㅇ린ㅇ
-		    <a href="#" class="close" onclick="javascript:go_close(1);">X</a>
-        </div>
-    </div>
-
-	<div id="con2" class="con">
-		<div class="inner_content">
-		    ddddd
-		    <a href="#" class="close" onclick="javascript:go_close(2);">X</a>
-        </div>
-    </div>
-   
-	<input type="hidden" name="allno" id="allno">
-	<script type="text/JavaScript">
-	  function go_open(num){
-		 $("body").css("overflow-y","hidden");
-
-		 if ($('#allno').val() != num) {
-			 if($('#allno').val() !="") {
-				 $("#con"+$('#allno').val()).slideUp();
-			 }
-			 $('#allno').val(num);
-			 if($("#con"+num).css("display")=="none"){
-				$("#con"+num).slideDown();
-			 }
-		 }
-	  }
-	  function go_close(num){
-		 $('#allno').val("");
-		 $("#con"+num).slideUp();
-		 $("body").css("overflow-y","auto");
-	  }
-	</script>
-
-	<!--상세-->
+	
 </body>
 
 </script>
